@@ -1,56 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-    <!-- div principal -->
-<div>
-
-<header>
-<nav>
-<!-- svg -->
-<img src="logo.png" width="80"  height="40" alt="logo">
-<!-- / svg -->
-
-<!-- btn de idiomas -->
-<select name="Español">
-<option value="English">English</option>
-<option value="Español" selected>Español</option>
-</select>
-<!-- / btn de idiomas -->
-
-<!-- svg -->
-<img src="translate.svg" alt="translate">
-<!-- / svg -->
-
-<!-- btn de iniciar sesion -->
-<button>Iniciar sesión</button>
-<!-- btn de iniciar sesion -->
-</nav>
-
-</header>
-
-    <main>
-
-<h1>Películas y series ilimitadas y mucho más</h1>
-<h3>Disfruta donde quieras. Cancela cuando quieras.</h3>
-<h4>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h4>
-
-    </main>
-
-<input type="email" placeholder="email">
-
-<!-- btn de comenzar -->
-<button>Comenzar ></button>
-<!-- /btn de comenzar -->
-
-</div>
-<!-- / div principal -->
-
+  <section class="fila">
+    <img class="logo" src="./logo.png"
+    alt="logo"
+    height="100px">
+    <form>
+      <select class="lenguaje" name="idioma">
+        <option value="es">Español</option>
+        <option value="en">Inglés</option>
+        <option value="fr">Francés</option>
+      </select>
+      <label for="button"></label>
+        <button class="sesion">Iniciar sesión</button>
+    </form>
+  </section>
+  <section class="columna">
+    <h1 class="uno">Películas y series ilimitadas y mucho más</h1>
+    <br>
+    <p class="dos">Disfruta donde quieras. Cancela cuando quieras.</p>
+    <br>
+    <p class="tres">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o
+      reiniciar tu membresía de Netflix.</p>
+  </section>
+  <section class="fila-dos">
+    <label for="email"></label>
+      <input class="email" type="email" name="email" placeholder="Email"/>
+    <label for="button"></label>
+      <button class="comenzar">Comenzar</button>
+  </section>
 </body>
 </html>
