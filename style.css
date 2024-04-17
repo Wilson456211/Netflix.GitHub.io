@@ -4,3 +4,9 @@ body{
     height: 10px;
     width: 5px;
   }
+
+.titulo{
+  text-align: center;
+  margin: auto;
+  right: auto;
+}
